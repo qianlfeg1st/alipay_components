@@ -1,0 +1,10 @@
+<dialog show="{{ showDialog }}" className="dialog" onDialogClose="onDialogClose" close="{{ true }}">
+  <view class="dialog__wrap">
+    <view class="dialog__tip">温馨提示
+    </view>
+    <view class="dialog__text">您有未支付订单
+    </view>
+    <view class="dialog__btn center">立即查看
+    </view>
+  </view>
+</dialog>

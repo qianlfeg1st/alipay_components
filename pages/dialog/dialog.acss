@@ -1,0 +1,38 @@
+.dialog {
+  position: relative;
+  width: 540rpx;
+  height: 540rpx;
+  background-image: url('../../images/home_modal.png');
+  background-size: 100% 100%;
+}
+
+.dialog__wrap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 540rpx;
+  height: 270rpx;
+}
+
+.dialog__tip {
+  font-size: 36rpx;
+  color: #E94220;
+  text-align: center;
+}
+
+.dialog__text {
+  font-size: 32rpx;
+  color: #666;
+  text-align: center;
+  margin: 26rpx 0 0 0;
+}
+
+.dialog__btn {
+  width: 380rpx;
+  height: 72rpx;
+  background: linear-gradient(270deg,rgba(67,144,255,1),rgba(67,191,255,1));
+  border-radius: 36rpx;
+  font-size: 32rpx;
+  color: #fff;
+  margin: 34rpx auto 0 auto;
+}

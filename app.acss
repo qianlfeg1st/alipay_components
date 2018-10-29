@@ -1,5 +1,12 @@
 page {
-  flex: 1;
-  display: flex;
+  /* flex: 1; */
+  /* display: flex; */
   background: #f7f7f7;
+}
+
+/* 水平垂直居中 */
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

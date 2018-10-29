@@ -1,0 +1,7 @@
+<view class="dialog__mask" a:if="{{ show }}" catchTap="onDialogClose" disable-scroll="{{ true }}">
+  <view class="dialog__content {{ className }}" catchTap="test" >
+    <view class="dialog__close" catchTap="onDialogClose" a:if="{{ close }}">X</view>
+    <slot></slot>
+  </view>
+</view>
+

@@ -1,0 +1,10 @@
+{
+  "allowsBounceVertical": "NO",
+  "pullRefresh": false,
+  "defaultTitle": "dialog",
+  "titleBarColor": "#fff",
+  "component": true,
+  "usingComponents": {
+    "dialog": "/components/dialog/dialog"
+  }
+}
